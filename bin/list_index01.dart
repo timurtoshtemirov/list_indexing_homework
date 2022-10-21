@@ -12,5 +12,6 @@ List func(List list)
 }
 
 void main() {
-    print(func([]));
+    List x1 = [];
+    print(x1);
 }
