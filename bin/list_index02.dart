@@ -5,5 +5,12 @@
         list1 (list): parameter
     Returns:
         list: return answer
-*/
-void main() {}
+*/List func( List list ) {
+int x = list[0];
+
+return [x];
+}
+void main() {
+    print(func([1,5,56]));
+
+}
