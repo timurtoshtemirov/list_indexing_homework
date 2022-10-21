@@ -10,6 +10,7 @@ List func(List list)
 {
     return list;
 }
+
 void main() {
     print(func([]));
 }
