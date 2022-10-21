@@ -6,4 +6,19 @@
     Returns:
         bool: return answer
 */
-void main() {}
+bool func(list){
+ int x = list[0];
+ int i = 0;
+ int c = 0 ;
+ while(i < list.length){
+    if(x == list[i]){
+        i += 1;
+    }
+    i += 1;
+ }
+ return c == list.length;   
+}
+void main() {
+
+    print(func([5, 5 ,5 ,1]));
+}
